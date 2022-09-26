@@ -71,7 +71,7 @@ p { line-height: 1.9; }
     height: 100%;
     display: flex;
     z-index: -1000;
-    /*backdrop-filter: blur(2.5px); /*blurry background added*/
+    backdrop-filter: blur(2.5px); /*blurry background added*/
 
 }
 
