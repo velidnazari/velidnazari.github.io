@@ -73,6 +73,7 @@ p { line-height: 1.9; }
     z-index: -1000;
     backdrop-filter: blur(2.5px); /*blurry background added*/
 
+    /* idon't know what to say */
 }
 
 .tm-bg-left,
