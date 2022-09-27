@@ -71,8 +71,8 @@ p { line-height: 1.9; }
     height: 100%;
     display: flex;
     z-index: -1000;
-    backdrop-filter: blur(2.5px); /*blurry background added*/
-    /*nothing changed*/
+    backdrop-filter: blur(3.5px); /*blurry background added*/
+
 }
 
 .tm-bg-left,
@@ -83,7 +83,7 @@ p { line-height: 1.9; }
 }
 
 /* Next line to blur right,  and I added blur*/
-.tm-bg-right { background-color: rgba(0,0,0,0.5); backdrop-filter: blur(2.5px); }
+.tm-bg-right { background-color: rgba(0,0,0,0.5); /*backdrop-filter: blur(2.5px); */ }
 
 .tm-bg-left {
     border-right: 230px solid rgba(0,0,0,0.5);
@@ -222,7 +222,8 @@ textarea {
     outline: none;
 }
 
-.mb-85 { margin-bottom: 85px; }
+/*.mb-85 { margin-bottom: 85px; } I edited here*/
+.mb-85 { margin-bottom: 8px; }
 .tm-contact-main { max-width: 690px; }
 
 .tm-contact {
